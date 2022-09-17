@@ -10,12 +10,12 @@ IOT and Data Science Block Project [22E2_5]
 <br><br>
 <pre>
 
-# Detecção de câncer de mama
+<h1>Detecção de câncer de mama</h1>
 Detecção de câncer de mama usando aprendizado de máquina
 
 <img src="https://cdn-images-1.medium.com/max/2600/1*gNcFEL1cpGpDC4vo1zUAWA.png" />
 
-# O que é câncer de mama?
+<h1>O que é câncer de mama?</h1>
 
 
 O câncer ocorre quando mudanças chamadas mutações ocorrem em genes que regulam o crescimento celular. As mutações permitem que as células se dividam e se multipliquem de maneira descontrolada e caótica. As células continuam se proliferando, produzindo cópias que se tornam progressivamente mais anormais. Na maioria dos casos, as cópias das células acabam formando um tumor.
@@ -24,10 +24,8 @@ O câncer de mama ocorre quando um tumor maligno (canceroso) se origina na mama.
 
 O câncer de mama não é apenas uma doença da mulher. É bem possível que os homens tenham câncer de mama, embora ocorra com menos frequência em homens do que em mulheres. Nossa discussão se concentrará principalmente no câncer de mama no que se refere às mulheres, mas deve-se notar que muitas das informações também são aplicáveis ​​aos homens.
 
-# O que é câncer de mama?
 
-
-# O Fatos e figuras
+<h1>O Fatos e figuras</h1>
 
 O câncer de mama é o câncer mais comum em mulheres e o segundo câncer mais comum em geral. Foram mais de 2 milhões de novos casos em 2018.
 
@@ -66,12 +64,12 @@ O câncer de mama é o câncer mais comum em mulheres e o segundo câncer mais c
 <br><br>
 <pre>
 
-# Breast Cancer Detection
+<h1>Breast Cancer Detection</h1>
 Breast Cancer Detection Using Machine Learning
 
 <img src="https://cdn-images-1.medium.com/max/2600/1*gNcFEL1cpGpDC4vo1zUAWA.png" />
 
-# What is Breast Cancer?
+<h1>What is Breast Cancer?</h1>
 
 Cancer occurs when changes called mutations take place in genes that regulate cell growth. The mutations let the cells divide and multiply in an uncontrolled, chaotic way. The cells keep on proliferating, producing copies that get progressively more abnormal. In most cases, the cell copies eventually end up forming a tumor.
 
@@ -79,7 +77,7 @@ Breast cancer occurs when a malignant (cancerous) tumor originates in the breast
 
 Breast cancer is not just a woman's disease. It is quite possible for men to get breast cancer, although it occurs less frequently in men than in women. Our discussion will focus primarily on breast cancer as it relates to women but it should be noted that much of the information is also applicable for men.
 
-# Facts And Figures
+<h1>Facts And Figures </h1>
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2018.
 
