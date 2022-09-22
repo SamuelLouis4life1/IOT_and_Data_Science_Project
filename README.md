@@ -10,6 +10,7 @@ IOT and Data Science Block Project [22E2_5]
 <br><br>
 <pre>
 
+
 # Detecção de câncer de mama
 Detecção de câncer de mama usando aprendizado de máquina
 
@@ -52,6 +53,42 @@ O câncer de mama é o câncer mais comum em mulheres e o segundo câncer mais c
     Porcentagem de mortes por câncer de mama: 9
 
 </pre>
+
+### Libraries used
+```python
+import numpy as np #for linear algebra
+import pandas as pd #for chopping, processing
+import csv #for opening csv files
+%matplotlib inline 
+import matplotlib.pyplot as plt #for plotting the graphs
+from scipy import stats #for statistical info
+from time import time
+from sklearn import tree
+from sklearn.model_selection import train_test_split # to split the data in train and test
+from sklearn.model_selection import KFold # for cross validation
+from sklearn.grid_search import GridSearchCV  # for tuning parameters
+from sklearn import metrics  # for checking the accuracy 
+#Classifiers 
+from sklearn import svm #for Support Vector Machines
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report , confusion_matrix #for Logistic regression
+from sklearn.svm import SVC # for support vector classifier
+from sklearn.neighbors import NearestNeighbors #for nearest neighbor classifier
+from sklearn.neighbors import KNeighborsClassifier # for K neighbor classifier
+from sklearn.tree import DecisionTreeClassifier #for decision tree classifier
+from sklearn.ensemble import RandomForestClassifier #for Random Forest
+```
+
+###How to
+To run the scripts you just type:
+```python
+python script_name.py
+```
+As result of execution the reached accuracy will print
+
+#### Dataset and Inputs
+The characteristics of the cell nuclei have been captured in the images and a classification methods which uses linear programming to construct a decision line. The dataset is published by Kaggle and taken from the University of California Irvine (UCI) machine learning repository.  The data is taken from the Breast Cancer Wisconsin Center. It includes ten (10) attributes taken from each cell nucleus as well as ID and the diagnosis (M=malignant, B=benign).  The dataset has 570 cases and 31 variables.  
+* the dataset can be found [here](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
 
 </details>
 
