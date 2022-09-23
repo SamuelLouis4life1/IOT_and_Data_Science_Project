@@ -10,13 +10,17 @@ IOT and Data Science Block Project [22E2_5]
 <br><br>
 <pre>
 
+<<<<<<< HEAD
 
 # Detecção de câncer de mama
+=======
+<h1>Detecção de câncer de mama</h1>
+>>>>>>> 9921a42e767f7d481930ca9c096c7cf7225ed1bd
 Detecção de câncer de mama usando aprendizado de máquina
 
 <img src="https://cdn-images-1.medium.com/max/2600/1*gNcFEL1cpGpDC4vo1zUAWA.png" />
 
-# O que é câncer de mama?
+<h1>O que é câncer de mama?</h1>
 
 
 O câncer ocorre quando mudanças chamadas mutações ocorrem em genes que regulam o crescimento celular. As mutações permitem que as células se dividam e se multipliquem de maneira descontrolada e caótica. As células continuam se proliferando, produzindo cópias que se tornam progressivamente mais anormais. Na maioria dos casos, as cópias das células acabam formando um tumor.
@@ -25,10 +29,8 @@ O câncer de mama ocorre quando um tumor maligno (canceroso) se origina na mama.
 
 O câncer de mama não é apenas uma doença da mulher. É bem possível que os homens tenham câncer de mama, embora ocorra com menos frequência em homens do que em mulheres. Nossa discussão se concentrará principalmente no câncer de mama no que se refere às mulheres, mas deve-se notar que muitas das informações também são aplicáveis ​​aos homens.
 
-# O que é câncer de mama?
 
-
-# O Fatos e figuras
+<h1>O Fatos e figuras</h1>
 
 O câncer de mama é o câncer mais comum em mulheres e o segundo câncer mais comum em geral. Foram mais de 2 milhões de novos casos em 2018.
 
@@ -58,6 +60,7 @@ O câncer de mama é o câncer mais comum em mulheres e o segundo câncer mais c
 ```python
 import numpy as np #for linear algebra
 import pandas as pd #for chopping, processing
+import seaborn as sns 
 import csv #for opening csv files
 %matplotlib inline 
 import matplotlib.pyplot as plt #for plotting the graphs
@@ -68,6 +71,14 @@ from sklearn.model_selection import train_test_split # to split the data in trai
 from sklearn.model_selection import KFold # for cross validation
 from sklearn.grid_search import GridSearchCV  # for tuning parameters
 from sklearn import metrics  # for checking the accuracy 
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn import preprocessing
+from sklearn.model_selection import cross_val_score, cross_val_predict
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import confusion_matrix, roc_auc_score
 #Classifiers 
 from sklearn import svm #for Support Vector Machines
 from sklearn.linear_model import LogisticRegression
@@ -77,6 +88,12 @@ from sklearn.neighbors import NearestNeighbors #for nearest neighbor classifier
 from sklearn.neighbors import KNeighborsClassifier # for K neighbor classifier
 from sklearn.tree import DecisionTreeClassifier #for decision tree classifier
 from sklearn.ensemble import RandomForestClassifier #for Random Forest
+from sklearn import model_selection
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+
+import warnings
+warnings.filterwarnings('ignore')
 ```
 
 ###How to
@@ -103,12 +120,12 @@ The characteristics of the cell nuclei have been captured in the images and a cl
 <br><br>
 <pre>
 
-# Breast Cancer Detection
+<h1>Breast Cancer Detection</h1>
 Breast Cancer Detection Using Machine Learning
 
 <img src="https://cdn-images-1.medium.com/max/2600/1*gNcFEL1cpGpDC4vo1zUAWA.png" />
 
-# What is Breast Cancer?
+<h1>What is Breast Cancer?</h1>
 
 Cancer occurs when changes called mutations take place in genes that regulate cell growth. The mutations let the cells divide and multiply in an uncontrolled, chaotic way. The cells keep on proliferating, producing copies that get progressively more abnormal. In most cases, the cell copies eventually end up forming a tumor.
 
@@ -116,7 +133,7 @@ Breast cancer occurs when a malignant (cancerous) tumor originates in the breast
 
 Breast cancer is not just a woman's disease. It is quite possible for men to get breast cancer, although it occurs less frequently in men than in women. Our discussion will focus primarily on breast cancer as it relates to women but it should be noted that much of the information is also applicable for men.
 
-# Facts And Figures
+<h1>Facts And Figures </h1>
 
 Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall. There were over 2 million new cases in 2018.
 
